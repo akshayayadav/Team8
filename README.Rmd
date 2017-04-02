@@ -1,0 +1,23 @@
+---
+title: "README"
+author: "Akshay Yadav"
+date: "March 30, 2017"
+output: 
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Team8
+
+Package for getting count tables for specified columns from the given data table
+
+```{r}
+library(Team8)
+irisSpecies_CountTable<-get_countTable(iris,"Species")
+irisSpecies_CountTable
+```
+
+

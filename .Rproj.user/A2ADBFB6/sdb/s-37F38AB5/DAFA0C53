@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#' Get count table for the specified column.\n#' @importFrom dplyr select_\n#' @importFrom dplyr group_by_\n#' @importFrom dplyr count\n#' @importFrom dplyr %>%\n#' @return Tibble with all value counts in target column.\n#' @param data A table\n#' @param col A string\n#' @export\n#' @examples\n#' data(iris)\n#' get_countTable(iris,\"Species\")\nget_countTable<-function(data,col){\n  countTable<-data %>% select_(col) %>% group_by_(col) %>% count()\n  return(countTable)\n}\n\n\n#' Edgar Anderson's Iris Data\n#' @description This famous (Fisher's or Anderson's) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\n#'\n#' @format A data frame with 53940 rows and 10 variables:\n#' \\describe{\n#'   \\item{Sepal.Length}{Sepal Length, in centimeter}\n#'   \\item{Sepal.Width}{Sepal Width of the diamond, in centimeter}\n#'   \\item{Petal.Length}{Petal Length, in centimeter}\n#'   \\item{Petal.Width}{Petal Width, in centimeter}\n#'   \\item{Species}{The species of the flower}\n#'   ...\n#' }\n\"iris\"\n",
+    "created" : 1491156128141.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2697804056",
+    "id" : "DAFA0C53",
+    "lastKnownWriteTime" : 1491159464,
+    "last_content_update" : 1491159464874,
+    "path" : "D:/Courses/Iastate/STAT585X/Team8/Team8-master/R/get_countTable.R",
+    "project_path" : "R/get_countTable.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
