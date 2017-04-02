@@ -1,5 +1,5 @@
 # README
-Akshay Yadav  
+Akshay Yadav, Gaurav Kandoi, He Jiang, Kathleen Rey  
 March 30, 2017  
 
 

@@ -1,6 +1,6 @@
 ---
 title: "README"
-author: "Akshay Yadav"
+author: "Akshay Yadav, Gaurav Kandoi, He Jiang, Kathleen Rey"
 date: "March 30, 2017"
 output: 
   html_document:
